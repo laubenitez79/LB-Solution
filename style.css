@@ -1,0 +1,442 @@
+/* All to design */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 98.9vw;
+}
+
+:root {
+    --fuenteTitulo : 'Andika', sans-serif;
+    --fuenteTexto : 'Inter', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-family: var(--fuenteTexto);
+    font-size: 25px;
+}
+
+h1{
+    color: black;
+}
+
+h2{
+    font-size: 50px;
+    color: rgb(255, 170, 72);
+}
+
+h3{
+    font-size: 45px;
+}
+
+span{
+    color: rgb(93, 242, 232);
+}
+
+/* Design header */
+#header {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header--titulo{
+    padding-left: 40px;
+}
+
+.header--contenedorNav{
+
+} 
+
+.header--contenedorNav > a{
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: var(--fuenteTexto);
+    color: black;
+}
+
+/*Container Design Principal*/
+
+#contenedorPrincipal{
+    height: 650px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+.contenedorPrincipal--textoIntroductorio{
+    margin-left : 200px;
+}
+
+.contenedorPrincipal--textoIntroductorio--texto{
+    width: 430px;
+    height: 230px;
+}
+
+.contenedorPrincipal--textoIntroductorio--botonConocenos{
+    padding: 20px;
+    font-family: var(--fuenteTexto);
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.contenedorPrincipal--contenedorImagen {
+
+}
+
+.contenedorPrincipal--contenedorImagen--imagen {
+    width: 100%;
+    height: 100%;
+    margin-top: -60px;
+}
+
+/*Container Design Frase */
+
+#contenedorFrase{
+    width: 100%;
+    background-color: #FFF500;
+    height: 530px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedorFrase--titulo{
+    color: black;
+    width: 40%;
+    text-align : center;
+}
+
+.contenedorFrase--texto{
+    width: 50%;
+}
+
+/*Container Design Ofrecemos*/
+
+#contenedorOfrecemos{
+    width: 100%;
+    height: 1100px;
+}
+
+.contenedorOfrecemos--titulo{
+    color: black;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 45px;
+}
+
+.contenedorOfrecemos--texto{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+#contenedorOfrecemos--bloqueImagenes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedorOfrecemos--bloqueTitulo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedorOfrecemos--bloqueTitulo--titulo{
+    margin-top:42px;
+    height: 100px;
+    width: 250px;
+    font-size: 35px;
+}
+
+.titulo--uno{
+    color: #0C906A;
+}
+
+.titulo--dos {
+    color: #FBBF2B;
+}
+
+.titulo--tres{
+    color: #FE393C;
+}
+
+.titulo--cuatro{
+    color: #A6CAF6;
+}
+
+.contenedorOfrecemos--bloqueTexto{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedorOfrecemos--bloqueTexto--texto{
+    width: 250px;
+}
+
+.contenedorOfrecemos--bloqueTexto--texto2{
+    width: 304px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+/*Container Design Creacion*/
+
+#contenedorCreacion{
+    height: 1111px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorCreacion--tontenedor--texto{
+    margin-top: 200px;
+}
+
+.contenedorCreacion--imagen{
+    margin-top: 130px;
+    height: 968px;
+    width: 825px;
+}
+
+.contenedorCreacion--titulo {
+    width: 500px;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.contenedorCreacion--texto{
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.contenedorCreacion--contenedorIconos{
+}
+
+.contenedorCreacion--contenedorIconos--icono{
+    width: 40px;
+    height: 40px;
+}
+
+.contenedorCreacion--contenedorIconos--icono2{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.contenedorCreacion--contenedorIconos--texto{
+    display: inline-block;
+    width: 120px;
+    margin: 10px;
+}
+
+/*Container Empresas */
+
+#contenedorEmpresas{
+    height: 940px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFD7EF;
+}
+
+.contenedorEmpresas--titulo{
+    margin-top: 100px;
+    margin-left: 45px;
+}
+
+.contenedorEmpresas--texto{
+    width: 55vw;
+    letter-spacing: 5px;
+    margin-left: 45px;
+    margin-top: 100px;
+}
+
+.contenedorEmpresas--empresas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5vw;
+}
+
+.contenedorEmpresas--empresas img {
+    width: 140px;
+    height: 140px;
+}
+
+/*Contain comments*/
+
+#contenedorComentarios{
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorComentarios--containAll{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.contenedorComentarios--containAll--contain{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contenedorComentarios--containAll--contain--queDicen{
+    width: 280px;
+    height: 300px;
+    border: 2px black solid;
+    border-radius: 20px;
+}
+
+.contenedorComentarios--containAll--contain--queDicen--bar{
+    width: 100%;
+    height: 20%;
+    background-color: #FBBF2B;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 2px solid black;
+}
+
+.contenedorComentarios--containAll--contain--queDicen--bar--iconos{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+
+.contenedorComentarios--containAll--contain--queDicen--texto{
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+/*Pre footer*/
+
+#contenedorPrefooter{
+    height: 810px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -106px;
+}
+
+.contenedorPrefooter--titulo{
+    width: 70%;
+    margin-top: 50px;
+    color: black;
+    text-align: center;
+}
+
+#contenedorPrefooter--boton{
+    margin-top: 50px;
+}
+/*Footer*/
+
+#footer{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBBF2B;
+}
+
+.footer--contenedor{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-contenedor--logo{
+}
+
+.footer-contenedor--redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+.footer-contenedor--redes a{
+    color: black;
+    font-size: 1.5rem;
+}
+
+.footer--contenedor--politicas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer--contenedor--politicas p a{
+    color: black;
+}
+
+.footer--contenedor--contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer--contenedor--direccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/*entrar landing*/
+
+.entrar{
+    width: 50%;
+    height: 850px;
+    display: flex;
+    align-items: center;
+}
+
+.entrar .align-items-center .row h2{
+    color: #0C906A;
+}
+
+.entrar .align-items-center .row a{
+    width: 50%;
+    margin: 0 auto;
+}

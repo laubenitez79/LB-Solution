@@ -1,0 +1,131 @@
+/* All to design */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 98.9vw;
+}
+
+:root {
+    --fuenteTitulo : 'Andika', sans-serif;
+    --fuenteTexto : 'Inter', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    font-family: var(--fuenteTexto);
+}
+
+h1{
+    color: black;
+}
+
+h2{
+    font-size: 4rem;
+    color: black;
+}
+
+h3{
+    font-size: 45px;
+}
+
+
+/* Design header */
+#header {
+    height: 350px;
+    background-color: #ffbfe5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header--titulo{
+    padding-left: 40px;
+}
+
+.header--contenedorNav > a{
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: var(--fuenteTexto);
+    color: black;
+}
+
+
+/*Precios contain*/
+
+#Precios{
+    margin-top: 50px;
+}
+
+.PreciosContenedor{
+    gap: 30px;
+}
+
+.Precios--titulo{
+    margin-bottom: 100px;
+}
+
+.Precios--boton{
+    width: 80% !important;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.Precios--contenedor--columna{
+    border-radius: 20px !important;
+}
+
+.precio--primerSeccion{
+    padding: 10px;
+    background-color: #FFBF23;
+    height: 300px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#primerSeccion-dos{
+    background-color: black;
+}
+
+#primerSeccion-dos h5 , #primerSeccion-dos p{
+    color: white;
+}
+
+#primerSeccion-dos a{
+    color: black;
+}
+
+.precio--beneficiosDePrecios {
+    align-content: flex-start;
+    padding-top: 10px;
+    gap: 20px;
+    height: 240px;
+    background-color: #ffbfe5;
+    border-radius: 0px 0px 20px 20px;
+}
+
+/*Footer contain*/
+
+#footer{
+    margin-top: 100px;
+    width: 100% !important;
+    background-color: #FFBF23;
+}
+
+.footer--contenedor{
+    padding: 20px;
+    align-items: center;
+}
+
+.footer-contenedor--redes p a{
+    color: black;
+}
+.footer--contenedor--politicas p a {
+    color: black;
+}

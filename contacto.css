@@ -1,0 +1,109 @@
+/* All to design */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 98.9vw;
+}
+
+:root {
+    --fuenteTitulo : 'Andika', sans-serif;
+    --fuenteTexto : 'Inter', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+p , label{
+    font-family: var(--fuenteTexto);
+    font-size: 25px;
+}
+
+h1{
+    color: black;
+}
+
+h2{
+    font-size: 50px;
+    color: black
+}
+
+h3{
+    font-size: 45px;
+}
+
+span{
+    color: rgb(93, 242, 232);
+}
+
+
+/* Design header */
+#header {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header--titulo{
+    padding-left: 40px;
+}
+
+.header--contenedorNav{
+
+} 
+
+.header--contenedorNav > a{
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: var(--fuenteTexto);
+    color: black;
+}
+
+/*Contactanos contain*/
+
+#Contactanos{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBBF2B;
+}
+
+.Contactanos--contenedor{
+    background-color: black;
+    border-radius: 20px;
+    width: 70%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Contactanos .Contactanos--contenedor form{
+    width: 90%;
+}
+
+#Contactanos .Contactanos--contenedor form label {
+    color: white;
+}
+
+#Contactanos .Contactanos--contenedor form label .form-text{
+    color: white !important;
+}
+
+.btn-primary{
+    background-color: black !important;
+    padding: 10px 40px;
+    font-family: var(--fuenteTexto);
+}
+.btn-primary:hover{
+    background-color: rgb(20, 20, 20) !important;
+}
